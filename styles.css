@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(minmax(10px, auto));
+  gap: 10px;
+}
