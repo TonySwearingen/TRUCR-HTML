@@ -10,6 +10,10 @@
   grid-template-rows: repeat(minmax(10px, auto));
   gap: 10px;
 }
+p {
+    justify-content: center;
+    align-content: center;
+}
 
 footer {
   text-align: center;
